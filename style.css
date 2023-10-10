@@ -1,0 +1,108 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding:0;
+    line-height: 1.6;
+    font-family: 'Arial';
+    color: #323232;
+}
+nav{
+    background: #323232;
+    display: flex;
+    gap: 4px;
+    height: 5vh;
+    padding: 0.5rem;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    border-radius: 0.3rem;
+    padding: 0.5rem;
+    transition: all 0.4s ease-in-out;
+    
+}
+nav a:hover{
+    color: black;
+    background: white;
+
+}
+
+.banner {
+    margin-top: calc(5vh + 1rem);
+    height: calc(100vh);
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background: url("./cccoil.svg");
+    background-repeat: no-repeat;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+.main-title{
+    width: 100%;
+    text-align: center;
+    font-size: 4em;
+}
+.container{
+    max-width: 1190px;
+    margin:auto;
+}
+
+.personal {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.educational {
+    display: flex;
+    gap: 0.4rem;
+}
+.educational div {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+}
+.educational img {
+    width:150px;
+}
+.flex{
+    display: flex;
+}
+.flex-column{
+    display: flex;
+    flex-flow: column;
+}
+.basis-full{
+    flex-basis:100%;
+}
+.w-full {
+    width: 100%;
+}
+.card {
+    border: solid 1px #afafaf;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+
+}
+section {
+    margin-top: 6rem;
+}
+.dev-icon{
+    width: 100px;
+}
+.text-center{
+    text-align: center;
+}
+.j-center{
+    justify-content: center;
+}
+.profile-pic{
+    border-radius: 4rem;
+}
