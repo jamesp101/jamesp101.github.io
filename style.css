@@ -106,3 +106,9 @@ section {
 .profile-pic{
     border-radius: 4rem;
 }
+
+
+h2{
+    padding-top: 64px;
+    margin-top: -64px;
+}
